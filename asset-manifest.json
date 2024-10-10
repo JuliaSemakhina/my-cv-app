@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-cv-app/static/css/main.1824a698.css",
+    "main.js": "/my-cv-app/static/js/main.d34f0771.js",
+    "static/js/453.651cb5c8.chunk.js": "/my-cv-app/static/js/453.651cb5c8.chunk.js",
+    "static/media/movie.png": "/my-cv-app/static/media/movie.5769464a1805c4d55eb2.png",
+    "static/media/quiz.png": "/my-cv-app/static/media/quiz.a0a6f6fe785b1dd12382.png",
+    "static/media/dictionary.png": "/my-cv-app/static/media/dictionary.d52df1c047d179efb8d7.png",
+    "static/media/todo.png": "/my-cv-app/static/media/todo.3adccfec55e5472fac40.png",
+    "static/media/wave-2.png": "/my-cv-app/static/media/wave-2.ad375d52038f4dd025c9.png",
+    "static/media/scss.svg": "/my-cv-app/static/media/scss.3eb4a2ca922faa3fa6bea21eecd86eda.svg",
+    "static/media/css.svg": "/my-cv-app/static/media/css.d609725da5c239fbcad6a68f9e4582ae.svg",
+    "static/media/html.svg": "/my-cv-app/static/media/html.242264aba93587af64b0d1a428a254ee.svg",
+    "static/media/js.svg": "/my-cv-app/static/media/js.0dedeb9eab5f33f7b3ebdef7f207cee2.svg",
+    "static/media/react.svg": "/my-cv-app/static/media/react.bf3f21413ef8d57d7fc100c629c4f257.svg",
+    "index.html": "/my-cv-app/index.html",
+    "main.1824a698.css.map": "/my-cv-app/static/css/main.1824a698.css.map",
+    "main.d34f0771.js.map": "/my-cv-app/static/js/main.d34f0771.js.map",
+    "453.651cb5c8.chunk.js.map": "/my-cv-app/static/js/453.651cb5c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1824a698.css",
+    "static/js/main.d34f0771.js"
+  ]
+}
