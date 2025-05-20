@@ -1024,31 +1024,3 @@ footer .sprite-sheet__logo {
   text-shadow: var(--shadow); 
 }
 
-/* .footer_div{
-  width: 19vw;
-  animation: move 10s infinite;
-}
-
-@keyframes move {
-   0% {
-    transform: 0;
-   }
-
-   100% {
-    transform: translateX(50vw);
-   }
-} */
-
-
-.quotes-section:before {
-  content: '';
-  position: absolute;
-  width: 20%;
-  height: 20%;
-  left: 4.5rem;
-  top: -2.25rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  z-index: -1;
-}
