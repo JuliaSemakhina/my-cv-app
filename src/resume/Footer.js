@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { socials } from './data'
 import { MdContentCopy } from "react-icons/md";
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 
 const Footer =()=> {

@@ -6,10 +6,8 @@ import css from './images/css.svg'
 import scss from './images/scss.svg'
 import js from './images/js.svg'
 import react from './images/react.svg'
-import { useGlobalContext } from './context'
 
 const Hero = () => {
-    const { closeSubmenu } = useGlobalContext();
     // let textToAnimate = "Frontend developer...";
     // const ref = React.useRef();
 
@@ -23,7 +21,7 @@ const Hero = () => {
 
     return (
 
-        <section className='hero' onMouseOver={closeSubmenu}>
+        <section className='hero'>
             <main>
                 <div className="intro">
                     <div >
@@ -37,7 +35,7 @@ const Hero = () => {
 
                 <div className='highlights'>
                     <h2 className="page-title">My Resume</h2>
-                    <p className="intro">Skills, expertiese and a quick look at some of my projetcts as a self-taught developer.</p>
+                    <p className="intro">Skills, experience and a quick look at some of my projects as a self-taught developer.</p>
                 </div>
 
                 <div className="projects-container" id='projects'>

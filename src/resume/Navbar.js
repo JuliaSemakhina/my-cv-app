@@ -6,23 +6,10 @@ import { CgDarkMode } from "react-icons/cg";
 
 const Navbar = () => {
 
-  const { openSidebar, openSubmenu, closeSubmenu, toggleTheme } = useGlobalContext();
-  // const displaySubmenu = (e)=>{
-  //   const page = e.target.textContent;
-  //   const tempBtn = e.target.getBoundingClientRect();
-  //   const center = (tempBtn.left + tempBtn.right) / 2;
-  //   const bottom = tempBtn.bottom - 3;
-  //   openSubmenu(page, { center, bottom });
-  // }
-
-  const handleSubmenu = (e) => {
-    if (!e.target.classList.contains('link-btn')) {
-      closeSubmenu();
-    }
-  };
+  const { openSidebar, toggleTheme } = useGlobalContext();
 
   return (
-    <nav className='nav d-f_jc-c' onMouseOver={handleSubmenu}> 
+    <nav className='nav d-f_jc-c'> 
     <div className='nav-center'>
       <div className='nav-header'>
       <img src={logo2} alt='stripe' className='nav-logo'/>
@@ -35,6 +22,7 @@ const Navbar = () => {
         <li>
           <button className='link-btn'><span>/</span><a href='#projects'>projects</a></button>
         </li>
+
         <li>
           <button className='link-btn' ><span>/</span><a href='#skills'>skills</a></button>
         </li>
@@ -49,7 +37,8 @@ const Navbar = () => {
         </ul>
         {/* <button className='btn theme-btn' onClick={toggleTheme} onMouseOver={displaySubmenu}>Theme</button> */}
       <div className="switch-btn" id="_2nd-toggle-btn"  onClick={toggleTheme}>
-      <input type="checkbox" />
+      <input type="checkbox" id="theme-toggle"/>
+      <label htmlFor="theme-toggle"></label>
       <span ></span>
     </div>
       </ul>
@@ -59,3 +48,39 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// const Navbar = () => {
+//   const { openSidebar, toggleTheme } = useGlobalContext();
+
+//   return (
+//     <nav className='nav d-f_jc-c'>
+//       <div className='nav-center'>
+//         <div className='nav-header'>
+//           <img src={logo2} alt='stripe' className='nav-logo' />
+//           <CgDarkMode className='theme-icon' onClick={toggleTheme} />
+//           <button className='btn toggle-btn' onClick={openSidebar}>
+//             <FaBars />
+//           </button>
+//         </div>
+//         <ul className='nav-links'>
+//           <li>
+//             <a href='#projects' className='link-btn'><span>/</span>projects</a>
+//           </li>
+//           <li>
+//             <a href='#skills' className='link-btn'><span>/</span>skills</a>
+//           </li>
+//         </ul>
+//         <div className='link-socials d-f_jc-c'>
+//           <a href='#skills' className='link-btn'><span>/</span>education</a>
+//           <a href='#contacts' className='link-btn'><span>/</span>contacts</a>
+//         </div>
+//         <div className="switch-btn" id="_2nd-toggle-btn" onClick={toggleTheme}>
+//           <input type="checkbox" id="theme-toggle" />
+//           <label htmlFor="theme-toggle"></label>
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;

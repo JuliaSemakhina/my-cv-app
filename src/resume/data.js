@@ -95,7 +95,7 @@ export const projects = [
     img_url: movie,
     description: "Multi-page search site, created with OMDB API in React. User can look for movies by title and save them to the list of favorites.",
     features: "Local Storage and React hooks.",
-    url: "https://juliasemakhina.github.io/React-to-do-app/"
+    url: "https://juliasemakhina.github.io/movie-search-app/"
   },
   {title: "Quiz App",
     img_url: quiz,
@@ -139,27 +139,3 @@ export const socials = [
 ]
 
 
-{/* <li>responsive layout design/development</li>
-<li>strong knowledge within HTML5, CSS3 (grid, flexbox)</li>
-<li>JavaScript(ES6)</li>
-<li>preprocessor (Sass)</li>
-<li>Bootstrap</li>
-<li>practical experience with ReactJS and React Hooks</li>
-<li>experience with Git</li>
-<li>Webpack, npm</li>
-<li>knowledge of OOP principles</li>
-<li>comfortable working with APIs</li>
-<li>working knowledge of image editing tools (Photoshop)</li>
-<li>knowledge of native DOM</li>
-<li>basic knowledge of D3</li> */}
-
-  {/* <li>can set and achieve difficult goals</li>
-<li></li>
-<li>well-organized and patient</li>
-<li>strong willingness to learn</li>
-<li>enjoy structure and logic</li>
-<li>can prioritize responsibilities to meet deadlines</li>
-<li>good written and verbal communication skills</li>
-<li>never refuse assistance</li>
-<li>open-minded, thougthful and team-oriented</li>
-<li>confident English speaking and writing skills</li> */}
